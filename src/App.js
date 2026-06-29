@@ -42,6 +42,7 @@ class App extends React.Component {
           <Routes>
             <Route path='/' element={<Login notificacion = {this.notificacion}/>}></Route>
             <Route path='/unidades' element={<Unidades notificacion = {this.notificacion} />}></Route>
+            <Route path='/equipamiento' element={<Equipamiento notificacion={this.notificacion} />}></Route>
           </Routes>
         </Router>
       </div>
